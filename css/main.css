@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Bevan", cursive;
+  font-family: 'Bevan', cursive;
   line-height: 1.5;
   font-weight: bold;
   margin: 0;
@@ -23,7 +23,8 @@ a {
   text-decoration: none;
   background-color: #713837;
   color: #fff;
-  border-radius: 10px;
+  border-radius: .75px;
+  margin: .3em;
 }
 
 .nav {
@@ -34,4 +35,8 @@ li {
   display: inline-block;
   padding: .75em;
 
+}
+
+a:hover {
+color: #f33;
 }
