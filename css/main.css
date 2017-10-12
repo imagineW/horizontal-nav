@@ -1,4 +1,16 @@
 html {
-  font-family: 'Bevan', cursive;
-  line-height: 1.5
+  font-family: "Bevan", cursive;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 0;
+}
+
+header {
+  background-color: #79756f;
+
+}
+
+nav {
+  list-style-type: none;
+
 }
