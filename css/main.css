@@ -5,12 +5,18 @@ html {
   margin: 0;
 }
 
-header {
+body {
   background-color: #79756f;
-
+  margin: .3em
 }
 
-nav {
+h1{
+  text-align: center;
+}
+.nav {
   list-style-type: none;
-
+  text-decoration: none;
+}
+.nav a {
+  padding: .6em
 }
