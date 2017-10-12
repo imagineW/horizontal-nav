@@ -7,16 +7,24 @@ html {
 
 body {
   background-color: #79756f;
-  margin: .3em
 }
 
 h1{
   text-align: center;
+  color: #fff;
 }
+
+a {
+  text-decoration: none;
+  background-color: #713837;
+  color: #fff;
+}
+
 .nav {
   list-style-type: none;
-  text-decoration: none;
 }
-.nav a {
-  padding: .6em
+
+li {
+  display: inline-block;
+  padding: .6em;
 }
