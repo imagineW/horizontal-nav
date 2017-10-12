@@ -1,8 +1,13 @@
 html {
+  box-sizing: border-box;
   font-family: "Bevan", cursive;
   line-height: 1.5;
   font-weight: bold;
   margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -18,6 +23,7 @@ a {
   text-decoration: none;
   background-color: #713837;
   color: #fff;
+  border-radius: 10px;
 }
 
 .nav {
@@ -26,5 +32,6 @@ a {
 
 li {
   display: inline-block;
-  padding: .6em;
+  padding: .75em;
+
 }
