@@ -38,6 +38,7 @@ a {
   display: block;
   font-weight: normal;
   text-align: center;
+  margin: 0;
 }
 
 .nav {
